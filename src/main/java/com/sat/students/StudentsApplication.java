@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin("https://satboard-ae702.web.app")
+@CrossOrigin("http://localhost:3000")
 @ComponentScan("com.sat.students")
 @SpringBootApplication
 public class StudentsApplication {
